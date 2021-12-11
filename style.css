@@ -3,9 +3,13 @@
 }
 
 .pack-form {
-	font-size: 25px;
+	font-size: 10px;
+}
+
+.pack-form__p1 {
+	font-size: 2em;
 }
 
 .pack-form__h1 {
-	font-size: 2em;
+	font-size: 4em;
 }
