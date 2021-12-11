@@ -1,3 +1,11 @@
 .tonto:hover {
 	color: #b7ffb4;
 }
+
+.cont-form {
+	font-size: 25px;
+}
+
+.cont-form__h1 {
+	font-size: 1em;
+}
