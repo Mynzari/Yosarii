@@ -2,12 +2,26 @@
 	color: #b7ffb4;
 }
 
+@font-face {
+	font-family: 'hanb';
+	src: url('Hanson-Bold.ttf');
+	font-weight: normal;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
 .pack-form {
 	font-size: 10px;
+	font-family: hanb;
 }
 
 .pack-form__p1 {
 	font-size: 2em;
+	width: 100vw;
+	font-family: sans-serif;
 }
 
 .pack-form__h1 {
