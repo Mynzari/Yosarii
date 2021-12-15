@@ -1,27 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Snake</title>
+  <style>
+    body {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      background-color: black;
+    }
 
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="node_modules/normalize/normalize.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+    #game-board {
+      background-color: #CCC;
+      width: 100vmin;
+      height: 100vmin;
+      display: grid;
+      grid-template-rows: repeat(21, 1fr);
+      grid-template-columns: repeat(21, 1fr);
+    }
 
-  <meta name="keywords" content="yosari, web, html, tonto, hola">
-  <meta name="description" content="Hola, soy Yosari y espero que te caiga una turbina de avión en la cabeza">
-  <meta name="author" content="Yosari">
-  <meta name="robots" content="noindex">
+    .snake {
+      background-color: hsl(200, 100%, 50%);
+      border: .25vmin solid black;
+    }
 
-  <title>Yosari</title>
+    .food {
+      background-color: hsl(50, 100%, 50%);
+      border: .25vmin solid black;
+    }
+  </style>
+  <script src="game.js" defer type="module"></script>
 </head>
-
 <body>
-  <div class="div-potato">
-    <h1 class="h1-potato">Introducción</h1>
-    <p class="text-potato">Las papas fritas o patatas fritas, también conocidas como papas a la francesa o patatas a la francesa, son las papas que se preparan cortándose en rodajas o en forma de bastones y friéndolas en aceite caliente hasta que queden doradas, retirándolas del aceite y luego sazonándolas con sal.</p>
-  </div>
+  <div id="game-board"></div>
 </body>
 </html>
