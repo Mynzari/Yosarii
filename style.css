@@ -1,29 +1,31 @@
-.tonto:hover {
-	color: #b7ffb4;
-}
-
 @font-face {
 	font-family: 'hanb';
-	src: url('Hanson-Bold.ttf');
+	src: url('resources/fonts/Hanson-Bold.ttf');
 	font-weight: normal;
 }
 
 * {
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 }
 
-.pack-form {
+.div-potato {
 	font-size: 10px;
-	font-family: hanb;
+	font-family: hanb, cursive;
+	display: inline-block;
+	text-align: center;
 }
 
-.pack-form__p1 {
-	font-size: 2em;
+.h1-potato {
+	font-size: 60px;
+	margin: 20px 0px;
+}
+
+.text-potato {
+	font-size: 20px;
 	width: 100vw;
-	font-family: sans-serif;
-}
-
-.pack-form__h1 {
-	font-size: 4em;
+	font-family: 'IBM Plex Mono', monospace;
+	margin: 0px 0px 10px;
+	box-sizing: border-box;
+	padding: 0px 180px;
 }
