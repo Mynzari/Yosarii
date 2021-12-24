@@ -1,4 +1,18 @@
+<!--
 
+/*******************************************************
+ * Copyright (C) 2020 Nicolas Proske (AKA pume)
+ * Twitter: https://twitter.com/einpume
+ *
+ * This file is part of "PORTAL!".
+ *
+ * "PORTAL!" can not be distributed without
+ * the express permission of Nicolas Proske (AKA pume)
+ *
+ * This copyright notice may not be removed or changed.
+ *******************************************************/
+
+-->
 
 <?php
 require_once 'config.php';
@@ -13,8 +27,8 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta content="Minecraft Website" name="description">
-    <meta content="Minecraft, Servidor, Website" name="keywords">
+    <meta content="PORTAL! - Minecraft Website" name="description">
+    <meta content="Minecraft, Server, Website, PORTAL!" name="keywords">
 
     <!-- Custom files -->
     <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -22,7 +36,7 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
     <!-- Font-Awesome -->
     <link href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" rel="stylesheet" crossorigin="anonymous">
 
-    <title>Ojalá te Nelly</title>
+    <title>PORTAL! - Minecraft Website</title>
 
     <base href="/">
 </head>
@@ -56,17 +70,17 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
         <div class="items">
             <div class="item">
                 <img src="<?php echo $actual_link ?>/img/placeholder.png" alt="Forum"><br>
-                <p>Foro</p>
+                <p>Forum</p>
             </div>
 
             <div class="item">
                 <img src="<?php echo $actual_link ?>/img/placeholder.png" alt="Vote"><br>
-                <p>Votar</p>
+                <p>Vote</p>
             </div>
 
             <div class="item">
                 <img src="<?php echo $actual_link ?>/img/placeholder.png" alt="Shop"><br>
-                <p>Tienda</p>
+                <p>Shop</p>
             </div>
         </div>
 
