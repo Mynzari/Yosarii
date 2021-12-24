@@ -16,7 +16,7 @@ $discord_link = 'https://discord.gg/ck3Uqtvu';
 
 /* SERVER INFO TEXT */
 $server_info_loading = 'Ojalá te muestre mis datos ...';
-$server_info_server_offline = 'Server is offline';
+$server_info_server_offline = 'El servidor está muerto';
 
 /* FOOTER TEXT */
 $footer_imprint_link = 'https://www.youtube.com/watch?v=-i6WPgnh2sA';
