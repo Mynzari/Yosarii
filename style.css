@@ -1,0 +1,10 @@
+.div-1 {
+	font-size: 20px;
+	color: darkred;
+	background-color: darkblue;
+}
+
+.text-1::first-line {
+	color: darkblue;
+	background-color: darkred;
+}

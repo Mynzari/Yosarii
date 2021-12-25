@@ -1,0 +1,22 @@
+{
+  "name": "yosarii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mynzari/Yosarii.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mynzari/Yosarii/issues"
+  },
+  "homepage": "https://github.com/Mynzari/Yosarii#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
