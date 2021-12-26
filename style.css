@@ -1,10 +1,53 @@
-.div-1 {
-	font-size: 20px;
-	color: darkred;
-	background-color: darkblue;
+@font-face {
+	font-family: 'hanb';
+	src: url('resources/fonts/Hanson-Bold.ttf');
+	font-weight: normal;
 }
 
-.text-1::first-line {
-	color: darkblue;
-	background-color: darkred;
+:root {
+	--blurple-color: #5865F2;
+	--gray-color: #23272A;
+}
+h4 {
+	font-family: hanb;
+}
+
+.div-116 {
+	background-color: var(--gray-color);
+}
+
+.div-116:hover {
+	background-color: var(--blurple-color);
+}
+
+.div-216 {
+	background-color: var(--gray-color);
+}
+
+.div-216:hover {
+	background-color: var(--blurple-color);
+}
+
+.div-216 {
+	background-color: var(--gray-color);
+}
+
+.div-216:hover {
+	background-color: var(--blurple-color);
+}
+
+.div-316 {
+	background-color: var(--gray-color);
+}
+
+.div-316:hover {
+	background-color: var(--blurple-color);
+}
+
+.div-416 {
+	background-color: var(--gray-color);
+}
+
+.div-416:hover {
+	background-color: var(--blurple-color);
 }
