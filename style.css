@@ -4,10 +4,44 @@
 	font-weight: normal;
 }
 
+@font-face {
+	font-family: 'hanb';
+	src: url('resources/fonts/Hanson-Bold.ttf');
+	font-weight: normal;
+}
+
 :root {
 	--blurple-color: #5865F2;
 	--gray-color: #23272A;
+	--withe-color: #FFFFFF;
 }
+
+* {
+	color: var(--withe-color);
+}
+
+div {
+	display: inline-block;
+}
+
+.div-016 {
+	margin: 20px 0px 0px 0px;
+}
+
+.div-018 {
+	text-align: center;
+	margin: 0px 50%;
+}
+
+.div-for-divs-129 {
+	margin: 180px 50%;
+	text-align: center;
+	font-family: 'IBM Plex Mono', monospace;
+	box-sizing: border-box;
+	border: 5px;
+	width: 10em;
+}
+
 h4 {
 	font-family: hanb;
 }
