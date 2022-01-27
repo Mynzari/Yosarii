@@ -1,51 +1,7 @@
-@font-face {
-	font-family: 'hanb';
-	src: url('resources/fonts/Hanson-Bold.ttf');
-	font-weight: normal;
-}
-
 body {
-	background-color: #2c2c2c;
-	font-family: Asap, 'IBM Plex Mono', monospace;
+	font-family: Asap;
 }
 
-.div-076 {
-	text-align: center;
-	background-color: #e659a4;
-}
-
-.h1-076 {
-	font-family: hanb, monospace;
-	font-size: 70px;
-}
-
-.h2-076 {
-	font-family: hanb, monospace;
-	font-size: 65px;
-}
-
-.div-376 {
-	text-align: left;
-}
-
-.h4-376 {
-	font-family: hanb, monospace;
-	font-size: 50px;
-}
-
-.text-376 {
-	font-size: 30px;
-}
-
-.div-576 {
-	text-align: left;
-}
-
-.h4-576 {
-	font-family: hanb, monospace;
-	font-size: 50px;
-}
-
-.text-576 {
-	font-size: 30px;
+h1 {
+	background-color: tomato;
 }
