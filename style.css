@@ -1,3 +1,5 @@
-.imagen {
-	padding-top: 5px;
+@font-face {
+  font-family: "hanb";
+  src: url("fonts/Hanson-Bold.ttf");
+  font-weight: normal;
 }
