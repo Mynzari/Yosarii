@@ -38,11 +38,11 @@ body {
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .div-sidebar .sidebar a:hover {
-    color: #ed6899;
-    cursor: pointer;
-  }
+  color: #ed6899;
+  cursor: pointer;
+}
