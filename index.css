@@ -9,10 +9,23 @@
 }
 
 body {
+  background-color: #080808;
+  background: linear-gradient(
+    to bottom right,
+    #f368a2  5%,
+    #ed6899  10%,
+    #0f0f0f 10%,
+    #0f0f0f 40%,
+    #101010 40%,
+    #111111 80%,
+    #0f0f0f 80%,
+    #0f0f0f 95%,
+    #ed6899 95%
+  );
   background: radial-gradient(
     circle at bottom right,
-    #080808 5%,
-    #070707 10%,
+    #f368a2 5%,
+    #ed6899 10%,
     #0f0f0f 10%,
     #0f0f0f 40%,
     #101010 40%,
