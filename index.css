@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("fonts/Gotham-Pro-Bold.ttf");
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(
+    circle at bottom right,
+    #080808 5%,
+    #070707 10%,
+    #0f0f0f 10%,
+    #0f0f0f 40%,
+    #101010 40%,
+    #111111 80%,
+    #0f0f0f 80%,
+    #0f0f0f 95%,
+    #ed6899 95%
+  );
+}
+
+.div-sidebar .sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  padding: 30px 0px;
+  font-family: Gotham;
+  background: linear-gradient(to right, #080808 0%, #070707 100%);
+}
+
+.div-sidebar .sidebar li {
+  list-style: none;
+  padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.div-sidebar .sidebar a:hover {
+    color: #ed6899;
+    cursor: pointer;
+  }
