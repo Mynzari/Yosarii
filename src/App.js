@@ -12,9 +12,8 @@ function PageHead(elements) {
 function App() {
   return (
     <div>
-      <PageHead title="Yosari Web" description="I want tacos wey"/>
-      <h2>Pinche pendejo</h2>
-      <h3>Qué</h3>
+      <PageHead title="Yosari Web" description="Amandita"/>
+      <h2>No sé cómo haré para dormir esta noche, pensando en todo lo que paso</h2>
     </div>
   );
 }
