@@ -12,8 +12,7 @@ function PageHead(elements) {
 function App() {
   return (
     <div>
-      <PageHead title="Yosari Web" description="Amandita"/>
-      <h2>No sé cómo haré para dormir esta noche, pensando en todo lo que paso</h2>
+      <PageHead title="Querida Amandita" description="No sé como dormiré hoy por la noche, no logro asimilar esto, ya las flores se secaron y los edificios se cayeron, nuestro amor ya no alimenta nuestro pequeño mundo que estabamos creando."/>
     </div>
   );
 }
